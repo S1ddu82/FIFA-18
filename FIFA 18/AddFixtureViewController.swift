@@ -133,9 +133,9 @@ print("Failed to Fetch Data")
 @IBAction func AddFixture(_ sender: Any) {
 if(Team1.text != "" && Team2.text != "" && ImageView1.image != nil && ImageView2.image != nil && Venue.text != "" && DateandTime.text != "")
 {
-Alert(Title: "Done", Message: "Fixture has been added")
-
 SaveData()
+Alert(Title: "Done", Message: "Fixture has been added")
+}
 
 //STeam1.append(Team1.text!)
 //STeam2.append(Team2.text!)
@@ -143,8 +143,8 @@ SaveData()
 //STeam2Icon.append(ImageView2.image!)
 //SVenue.append(Venue.text!)
 //SDateandTime.append(DateandTime.text!)
-}
-if(Team1.text == "" && Team2.text == "" && ImageView1.image == nil && ImageView2.image == nil && Venue.text == "" && DateandTime.text == "")
+
+if(Team1.text != "" && Team2.text != "" && ImageView1.image != nil && ImageView2.image != nil && Venue.text == "" && DateandTime.text == "")
 {
 Alert(Title: "Alert", Message: "Please fill in the required credentials")
 }
