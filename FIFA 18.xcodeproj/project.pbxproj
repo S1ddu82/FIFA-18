@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17452DD820C63B1E00AEEA01 /* Update1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17452DD720C63B1E00AEEA01 /* Update1ViewController.swift */; };
+		17452DDA20C63B2C00AEEA01 /* Update2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17452DD920C63B2C00AEEA01 /* Update2ViewController.swift */; };
+		175C04D920BCF6AE003A71A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04D820BCF6AE003A71A5 /* AppDelegate.swift */; };
+		175C04DE20BCF6AE003A71A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175C04DC20BCF6AE003A71A5 /* Main.storyboard */; };
+		175C04E120BCF6AE003A71A5 /* FIFA_18.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 175C04DF20BCF6AE003A71A5 /* FIFA_18.xcdatamodeld */; };
+		175C04E320BCF6B0003A71A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175C04E220BCF6B0003A71A5 /* Assets.xcassets */; };
+		175C04E620BCF6B0003A71A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175C04E420BCF6B0003A71A5 /* LaunchScreen.storyboard */; };
+		175C04EE20BCF73F003A71A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04ED20BCF73F003A71A5 /* HomeViewController.swift */; };
+		175C04F020BCF765003A71A5 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04EF20BCF765003A71A5 /* ListViewController.swift */; };
+		175C04F220BCF782003A71A5 /* AddIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04F120BCF782003A71A5 /* AddIconViewController.swift */; };
+		175C04F620BCF7B7003A71A5 /* AddFixtureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04F520BCF7B7003A71A5 /* AddFixtureViewController.swift */; };
+		175C04F820BCF7C7003A71A5 /* ViewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04F720BCF7C7003A71A5 /* ViewFixtures.swift */; };
+		175C04FA20BCFE6E003A71A5 /* Custom1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04F920BCFE6E003A71A5 /* Custom1TableViewCell.swift */; };
+		175C04FC20BD36CB003A71A5 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04FB20BD36CB003A71A5 /* OneViewController.swift */; };
+		175C04FE20BD36DA003A71A5 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04FD20BD36DA003A71A5 /* TwoViewController.swift */; };
+		175C050020BD921A003A71A5 /* Custom2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C04FF20BD921A003A71A5 /* Custom2TableViewCell.swift */; };
+		175C050220BD9D1A003A71A5 /* Specific1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C050120BD9D1A003A71A5 /* Specific1ViewController.swift */; };
+		175C050420BD9D2B003A71A5 /* Specific2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C050320BD9D2B003A71A5 /* Specific2ViewController.swift */; };
+		175C050620BD9ED9003A71A5 /* Custom3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C050520BD9ED9003A71A5 /* Custom3TableViewCell.swift */; };
+		175C050820BD9EE3003A71A5 /* Custom4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C050720BD9EE3003A71A5 /* Custom4TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17452DD720C63B1E00AEEA01 /* Update1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update1ViewController.swift; sourceTree = "<group>"; };
+		17452DD920C63B2C00AEEA01 /* Update2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update2ViewController.swift; sourceTree = "<group>"; };
+		175C04D520BCF6AE003A71A5 /* FIFA 18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIFA 18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175C04D820BCF6AE003A71A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		175C04DD20BCF6AE003A71A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		175C04E020BCF6AE003A71A5 /* FIFA_18.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FIFA_18.xcdatamodel; sourceTree = "<group>"; };
+		175C04E220BCF6B0003A71A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		175C04E520BCF6B0003A71A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		175C04E720BCF6B0003A71A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175C04ED20BCF73F003A71A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		175C04EF20BCF765003A71A5 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		175C04F120BCF782003A71A5 /* AddIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIconViewController.swift; sourceTree = "<group>"; };
+		175C04F520BCF7B7003A71A5 /* AddFixtureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFixtureViewController.swift; sourceTree = "<group>"; };
+		175C04F720BCF7C7003A71A5 /* ViewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFixtures.swift; sourceTree = "<group>"; };
+		175C04F920BCFE6E003A71A5 /* Custom1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom1TableViewCell.swift; sourceTree = "<group>"; };
+		175C04FB20BD36CB003A71A5 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		175C04FD20BD36DA003A71A5 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		175C04FF20BD921A003A71A5 /* Custom2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom2TableViewCell.swift; sourceTree = "<group>"; };
+		175C050120BD9D1A003A71A5 /* Specific1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specific1ViewController.swift; sourceTree = "<group>"; };
+		175C050320BD9D2B003A71A5 /* Specific2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specific2ViewController.swift; sourceTree = "<group>"; };
+		175C050520BD9ED9003A71A5 /* Custom3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom3TableViewCell.swift; sourceTree = "<group>"; };
+		175C050720BD9EE3003A71A5 /* Custom4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom4TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175C04D220BCF6AE003A71A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175C04CC20BCF6AE003A71A5 = {
+			isa = PBXGroup;
+			children = (
+				175C04D720BCF6AE003A71A5 /* FIFA 18 */,
+				175C04D620BCF6AE003A71A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175C04D620BCF6AE003A71A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175C04D520BCF6AE003A71A5 /* FIFA 18.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		175C04D720BCF6AE003A71A5 /* FIFA 18 */ = {
+			isa = PBXGroup;
+			children = (
+				175C04D820BCF6AE003A71A5 /* AppDelegate.swift */,
+				175C04ED20BCF73F003A71A5 /* HomeViewController.swift */,
+				175C04EF20BCF765003A71A5 /* ListViewController.swift */,
+				175C04F120BCF782003A71A5 /* AddIconViewController.swift */,
+				175C04F920BCFE6E003A71A5 /* Custom1TableViewCell.swift */,
+				175C04FB20BD36CB003A71A5 /* OneViewController.swift */,
+				175C04FD20BD36DA003A71A5 /* TwoViewController.swift */,
+				175C04F520BCF7B7003A71A5 /* AddFixtureViewController.swift */,
+				175C04F720BCF7C7003A71A5 /* ViewFixtures.swift */,
+				175C04FF20BD921A003A71A5 /* Custom2TableViewCell.swift */,
+				175C050120BD9D1A003A71A5 /* Specific1ViewController.swift */,
+				175C050520BD9ED9003A71A5 /* Custom3TableViewCell.swift */,
+				175C050320BD9D2B003A71A5 /* Specific2ViewController.swift */,
+				175C050720BD9EE3003A71A5 /* Custom4TableViewCell.swift */,
+				17452DD720C63B1E00AEEA01 /* Update1ViewController.swift */,
+				17452DD920C63B2C00AEEA01 /* Update2ViewController.swift */,
+				175C04DC20BCF6AE003A71A5 /* Main.storyboard */,
+				175C04E220BCF6B0003A71A5 /* Assets.xcassets */,
+				175C04E420BCF6B0003A71A5 /* LaunchScreen.storyboard */,
+				175C04E720BCF6B0003A71A5 /* Info.plist */,
+				175C04DF20BCF6AE003A71A5 /* FIFA_18.xcdatamodeld */,
+			);
+			path = "FIFA 18";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175C04D420BCF6AE003A71A5 /* FIFA 18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175C04EA20BCF6B0003A71A5 /* Build configuration list for PBXNativeTarget "FIFA 18" */;
+			buildPhases = (
+				175C04D120BCF6AE003A71A5 /* Sources */,
+				175C04D220BCF6AE003A71A5 /* Frameworks */,
+				175C04D320BCF6AE003A71A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIFA 18";
+			productName = "FIFA 18";
+			productReference = 175C04D520BCF6AE003A71A5 /* FIFA 18.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175C04CD20BCF6AE003A71A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = siddharth;
+				TargetAttributes = {
+					175C04D420BCF6AE003A71A5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 175C04D020BCF6AE003A71A5 /* Build configuration list for PBXProject "FIFA 18" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 175C04CC20BCF6AE003A71A5;
+			productRefGroup = 175C04D620BCF6AE003A71A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175C04D420BCF6AE003A71A5 /* FIFA 18 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		175C04D320BCF6AE003A71A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175C04E620BCF6B0003A71A5 /* LaunchScreen.storyboard in Resources */,
+				175C04E320BCF6B0003A71A5 /* Assets.xcassets in Resources */,
+				175C04DE20BCF6AE003A71A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175C04D120BCF6AE003A71A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175C04F620BCF7B7003A71A5 /* AddFixtureViewController.swift in Sources */,
+				175C04FC20BD36CB003A71A5 /* OneViewController.swift in Sources */,
+				17452DDA20C63B2C00AEEA01 /* Update2ViewController.swift in Sources */,
+				175C050220BD9D1A003A71A5 /* Specific1ViewController.swift in Sources */,
+				175C04F820BCF7C7003A71A5 /* ViewFixtures.swift in Sources */,
+				175C050620BD9ED9003A71A5 /* Custom3TableViewCell.swift in Sources */,
+				175C04F220BCF782003A71A5 /* AddIconViewController.swift in Sources */,
+				175C04FA20BCFE6E003A71A5 /* Custom1TableViewCell.swift in Sources */,
+				175C050020BD921A003A71A5 /* Custom2TableViewCell.swift in Sources */,
+				175C050420BD9D2B003A71A5 /* Specific2ViewController.swift in Sources */,
+				17452DD820C63B1E00AEEA01 /* Update1ViewController.swift in Sources */,
+				175C04D920BCF6AE003A71A5 /* AppDelegate.swift in Sources */,
+				175C04E120BCF6AE003A71A5 /* FIFA_18.xcdatamodeld in Sources */,
+				175C050820BD9EE3003A71A5 /* Custom4TableViewCell.swift in Sources */,
+				175C04F020BCF765003A71A5 /* ListViewController.swift in Sources */,
+				175C04EE20BCF73F003A71A5 /* HomeViewController.swift in Sources */,
+				175C04FE20BD36DA003A71A5 /* TwoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		175C04DC20BCF6AE003A71A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175C04DD20BCF6AE003A71A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		175C04E420BCF6B0003A71A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175C04E520BCF6B0003A71A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		175C04E820BCF6B0003A71A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		175C04E920BCF6B0003A71A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175C04EB20BCF6B0003A71A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FIFA 18/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddharth.FIFA-18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		175C04EC20BCF6B0003A71A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FIFA 18/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddharth.FIFA-18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175C04D020BCF6AE003A71A5 /* Build configuration list for PBXProject "FIFA 18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175C04E820BCF6B0003A71A5 /* Debug */,
+				175C04E920BCF6B0003A71A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175C04EA20BCF6B0003A71A5 /* Build configuration list for PBXNativeTarget "FIFA 18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175C04EB20BCF6B0003A71A5 /* Debug */,
+				175C04EC20BCF6B0003A71A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		175C04DF20BCF6AE003A71A5 /* FIFA_18.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				175C04E020BCF6AE003A71A5 /* FIFA_18.xcdatamodel */,
+			);
+			currentVersion = 175C04E020BCF6AE003A71A5 /* FIFA_18.xcdatamodel */;
+			path = FIFA_18.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 175C04CD20BCF6AE003A71A5 /* Project object */;
+}
