@@ -211,7 +211,6 @@ S2Team1Icon.removeAll()
 S2Team2Icon.removeAll()
 S2Venue.removeAll()
 S2DateandTime.removeAll()
-TableView.reloadData()
 AnimateTable()
 }
     

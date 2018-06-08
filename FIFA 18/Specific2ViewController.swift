@@ -34,8 +34,6 @@ return 250.0
 }
     
 override func viewWillAppear(_ animated: Bool) {
-TableView.reloadData()
-TableView.reloadData()
 AnimateTable()
 }
     

@@ -42,7 +42,6 @@ performSegue(withIdentifier: "Segue1", sender: self)
 }
 
 override func viewDidAppear(_ animated: Bool) {
-TableView.reloadData()
 AnimateTable()
 }
     
