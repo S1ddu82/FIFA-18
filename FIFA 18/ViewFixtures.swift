@@ -38,19 +38,14 @@ if(Data2 != nil)
 {
 print("Image 2 Absent")
 }
-print("**********************Data1***************************")
-print(Data1)
-print("**********************Data2***************************")
-print(Data2)
-Image1 = UIImage(data: Data1 as Data)!
-Image2 = UIImage(data: Data2 as Data)!
+self.Image1 = UIImage(data: Data1 as Data)!
+self.Image2 = UIImage(data: Data2 as Data)!
 Cell.Team1.text = Fixture.value(forKeyPath: "team1") as? String
 Cell.Team2.text = Fixture.value(forKeyPath: "team2") as? String
 Cell.Venue.text = Fixture.value(forKeyPath: "venue") as? String
 Cell.DateandTime.text = Fixture.value(forKeyPath: "dateandtime") as? String
-Cell.Button1.setBackgroundImage(Image1, for: .normal)
-Cell.Button2.setBackgroundImage(Image2, for: .normal)
-    
+Cell.Button1.setBackgroundImage(self.Image1, for: .normal)
+Cell.Button2.setBackgroundImage(self.Image2, for: .normal)
 //Cell.Button1.setBackgroundImage(STeam1Icon[indexPath.row], for: .normal)
 //Cell.Button2.setBackgroundImage(STeam2Icon[indexPath.row], for: .normal)
 //Cell.Team1.text = STeam1[indexPath.row]

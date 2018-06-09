@@ -66,7 +66,7 @@ DelayCounter += 1
     
 
 override func viewDidLoad() {
-TableView.reloadData()
+
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
