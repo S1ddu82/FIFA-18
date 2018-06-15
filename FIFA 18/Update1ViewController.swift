@@ -107,7 +107,7 @@ Venue.text = Venues[row]
 @IBAction func DatePicker(_ sender: UITextField){
 DatePickerView.datePickerMode = UIDatePickerMode.dateAndTime
 sender.inputView = DatePickerView
-DatePickerView.addTarget(self, action: #selector(AddFixtureViewController.datePickerValueChanged), for: UIControlEvents.valueChanged)
+DatePickerView.addTarget(self, action: #selector(Update1ViewController.datePickerValueChanged), for: UIControlEvents.valueChanged)
 }
     
 @objc func datePickerValueChanged(sender:UIDatePicker) {

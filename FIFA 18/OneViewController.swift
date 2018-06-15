@@ -42,7 +42,7 @@ func ToolBar()
 let ToolBar = UIToolbar()
 ToolBar.delegate = self
 ToolBar.sizeToFit()
-let DoneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(TwoViewController.DismissPickerView))
+let DoneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(OneViewController.DismissPickerView))
 ToolBar.setItems([DoneButton], animated: false)
 ToolBar.isUserInteractionEnabled = true
 TeamName.inputAccessoryView = ToolBar

@@ -77,6 +77,7 @@ performSegue(withIdentifier: "Segue2", sender: self)
 }
 // Function to View Fixtures
 @IBAction func ViewFixture(_ sender: Any) {
+FetchData()
 if(RegisteredFixtures.count == 0)
 {
 Alert(Title: "Alert", Message: "No Fixtures added")
